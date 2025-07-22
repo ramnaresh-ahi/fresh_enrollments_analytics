@@ -1,0 +1,11 @@
+
+version: 2
+
+sources:
+  - name: raw
+    database: FRESH_ENROLLMENT
+    schema: PUBLIC
+    tables:
+      - name:   fresh_enrollments
+      - name: counsellors
+      - name: channels
