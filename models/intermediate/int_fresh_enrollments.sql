@@ -13,6 +13,8 @@ WITH fresh_enrollments AS(
         f.gender,
         f.contact_number,
         f.email,
+        f.city,
+        f.state,
         f.since_listening_in_years,
         ch.channel_id,
         f.donation,
@@ -24,7 +26,7 @@ WITH fresh_enrollments AS(
         {{ ref('stg_fresh_enrollments')}} f USING(channel_id)
         JOIN 
         {{ ref('stg_counsellors')}} c USING (counsellor_id)
-
+    
     {% if is_incremental()%}
     WHERE
         f.enrollment_date > (SELECT MAX(enrollment_date) from {{ this }})

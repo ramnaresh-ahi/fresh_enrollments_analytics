@@ -8,6 +8,8 @@ WITH fresh_enrollments AS(
         gender,
         contact_number,
         email,
+        city,
+        state,
         since_listening_in_years,
         channel_id,
         donation,

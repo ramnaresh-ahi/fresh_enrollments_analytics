@@ -12,6 +12,8 @@ WITH fresh_enrollments AS(
         END as gender,
         contact_number,
         COALESCE(email, 'N/A') as email,
+        city,
+        state,
         since_listening as since_listening_in_years,
         CAST(channel as INTEGER) as channel_id,
         donation,
