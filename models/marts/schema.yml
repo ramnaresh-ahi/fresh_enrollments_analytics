@@ -1,0 +1,19 @@
+
+version: 2
+
+models:
+  - name: fact_fresh_enrollments
+    description: Building relationships with dim_ tables such as dim_channels(channel_id) and dim_counsellors(counsellor_id)
+    columns:
+      - name: channel_id
+        description: Primary key of dim_channels table that used to build relationship with fact_fresh_enrollments table
+        tests:
+          - relationships:
+              to: ref('dim_channels')
+              field: channel_id
+      - name: counsellor_id
+        description: Primary key of dim_counsellors table that used to build relationship with fact_fresh_enrollments table
+        tests: 
+          - relationships:
+              to: ref('dim_counsellors')
+              field: counsellor_id
