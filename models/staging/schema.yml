@@ -29,6 +29,10 @@ models:
         description: Contact number or Mobile number of student
       - name: email
         description: Email id or email address of student
+      - name: city
+        description: City of student
+      - name: state
+        description: State or Province of student
       - name: since_listening_in_years
         description: How long has student been listening to Acharya Ji
       - name: channel_id
