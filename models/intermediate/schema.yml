@@ -1,0 +1,7 @@
+
+version: 2
+
+models:
+  - name: int_fresh_enrollments
+    description: Implement incremental model in this table
+    
