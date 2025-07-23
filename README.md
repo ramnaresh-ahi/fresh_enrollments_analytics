@@ -30,9 +30,9 @@ By transforming raw data into structured insights, this project empowers stakeho
 
 - **Synthetic data** generated to simulate real-world enrollments
 - Data is organized into the following **source tables**:
-  - `stg_fresh_enrollments`
-  - `stg_channels`
-  - `stg_counsellors`
+  - `raw.fresh_enrollments`
+  - `raw.channels`
+  - `raw.counsellors`
 - Currently loaded manually (scheduled runs can be added later)
 
 ---
@@ -188,7 +188,7 @@ Full model and column-level documentation is available here:
 
 **Ramnaresh Ahirwar**  
 Analytics Engineer | dbt & Cloud Data Warehouse Enthusiast  
-[LinkedIn](https://www.linkedin.com/in/ramnaresh-ahi/) · [GitHub](https://github.com/ramnaresh-ahi)
+[LinkedIn](https://www.linkedin.com/in/ramnaresh-ahirwar-77abc/) · [GitHub](https://github.com/ramnaresh-ahi)
 
 ---
 
