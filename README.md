@@ -127,9 +127,10 @@ Full model and column-level documentation is available here:
 
 ---
 
-## 🖼️ Dashboard Preview
+## 📊 Dashboard
 
-> Visualizes enrollment volume, donations, counselor contributions, and channel breakdown.
+- **Tool**: Power BI
+- **Link**: [View Dashboard](https://github.com/ramnaresh-ahi/fresh_enrollments_analytics/blob/main/Images/fresh_enrollments_analytics_dashboard.png)
 
 ---
 
