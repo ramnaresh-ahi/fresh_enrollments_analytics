@@ -16,16 +16,6 @@ By transforming raw data into structured insights, this project empowers stakeho
 
 ---
 
-## ⚙️ Tech Stack
-
-| Tool            | Purpose                          |
-|-----------------|----------------------------------|
-| **dbt Cloud**   | Data transformation & scheduling |
-| **Snowflake**   | Cloud data warehouse             |
-| **Power BI**    | Dashboard & visualization        |
-
----
-
 ## 🧩 Data Sources
 
 - **Synthetic data** generated to simulate real-world enrollments
@@ -146,6 +136,16 @@ Full model and column-level documentation is available here:
   - Regex validation for contact numbers
 - ✅ **Channel and counselor mapping**
 - ✅ **Power BI dashboard** to visualize key metrics (screenshot included above)
+
+---
+
+## ⚙️ Tech Stack
+
+| Tool            | Purpose                          |
+|-----------------|----------------------------------|
+| **dbt Cloud**   | Data transformation & scheduling |
+| **Snowflake**   | Cloud data warehouse             |
+| **Power BI**    | Dashboard & visualization        |
 
 ---
 
